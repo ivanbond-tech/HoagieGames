@@ -4,10 +4,10 @@ A python simulation script of a "Hunger Games" style to determine which Pittsbur
 
 TODO:
 
-[x] Movement
-[x] Player and Map generation
-[x] Command line arguments
-[ ] Data analysis (missing: casino, school, club, church, etc. info) 
-[ ] Set attributes for every player (neighborhood) based on data
-[ ] Attacking - (highest attribute of allies leader wins)
-[ ] Actual simulation - currently displays movements and picks random winner
+- [x] Movement
+- [x] Player and Map generation
+- [x] Command line arguments
+- [ ] Data analysis (missing: casino, school, club, church, etc. info) 
+- [ ] Set attributes for every player (neighborhood) based on data
+- [ ] Attacking - (highest attribute of allies leader wins)
+- [ ] Actual simulation - currently displays movements and picks random winner
