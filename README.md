@@ -1,8 +1,8 @@
 # Hoagie Games
 
-A python simulation script to simulate a "Hunger Games" style battle for every neighborhood in Pittsburgh to determine a winner. Data pulled from WRPDC and more information found in info/rules.txt
+A python simulation script to simulate a "Hunger Games" style battle for every neighborhood in Pittsburgh to determine a winner. Data pulled from WRPDC and more information found in info/rules.txt. This simulation was made for a final project for CMPINF0010 Big Ideas in Computing and Information.
 
-TODO:
+## TODO:
 - [x] Movement
 - [x] Player and map generation
 - [x] Attributes and rules
@@ -11,3 +11,10 @@ TODO:
 - [ ] Determine player attributes based on data from analysis
 - [ ] Attacking - player with higher attributes wins
 - [ ] Simulation - currently just picks random neighborhood as winner
+
+## Setup
+- <code>pip3 install pandas</code>
+- <code>pip3 install numpy</code>
+
+## How to Run
+<code>python3 run_sim.py</code>
