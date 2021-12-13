@@ -1,0 +1,5 @@
+Stepped on wild hornet's nest ... if agility < 6 all allies die
+Attacked by bears ... if strength < 7 all allies mauled by wild bears
+Activated poison trap ... if intelligence < 9 all allies poisoned and die
+Encountered native tribe ... if charisma < 8 all allies slaughtered
+Trapdoor ... if perception < 8 all allies fall to their death

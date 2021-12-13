@@ -1,0 +1,5 @@
+Found {ally_count} weapons ... +2 Strength
+Found map for arena ... avoid all traps
+Found vehicle ... agility +3
+Supply drop ... endurance +2
+Found computer ... intelligence +2, luck +1

@@ -1,0 +1,55 @@
+
+Base Rules
+
+[x] 180 tributes, 1 Male 1 Female from each neighborhood
+[ ] tributes from same neighborhood will be allies if encounter each other
+[ ] certain events and traps will kill tributes if their attribute level for the event is too low
+[x] a tribute cannot have more than 5 other allies
+[x] allies can only be made if both tributes have high enough charisma level
+[ ] certain buffs and bonuses will be randomly generated
+[x] all tributes start with 5 base points for each attribute, and are justed based on neighborhood data
+[x] map will be 40x40 matrix
+[x] 40 buffs/bonuses and 40 traps will be generated in map
+[ ] only 1 winner, unless 2 are left from same neighborhood
+
+Game Logic 
+
+[ ] Movement/Attacking:
+    - Determine leader of allies (highest attribute values)
+    - Leader makes all inital movement decisions
+    - Order allies around leader's 3x3 (or open positions if on edge of map)
+    - When leader moves, move allies in same relative order around leader
+    - If ally/leader steps on special map pos (not 0), go in order based off first player to step on special pos
+    - If allies/leader move into an enemy's 3x3 (or surrounding pos) initiate attack
+        - For attack, compare both leader's attribute values
+        - The leader with higher attribute values wins
+        - Losing team all dies, resetting map values to 0
+
+[x] Attribute Explanations
+
+        Strength:       dealing with combat
+        Perception:     wisdom pertaining to survival
+        Endurance:      likelihood of surviving 
+        Charisma:       ability to make friends
+        Intelligence:   useful working knowledge
+        Agility:        ability to escape by foot
+        Luck:           favored by fortune
+
+[ ] Tribute Attributes
+
+    * All Tributes start with 5 base points for each attribute
+
+    - If a neighborhood has schools, +intelligence
+    - If a neighborhood has a high crime rate, +strength +endurance
+    - If a neighborhood has churches/religious locations, +luck
+    - If a neighborhood has casinos, +luck
+    - If a neighborhood has more steps (walkability), +agility
+    - If a neighborhood is rural, +endurance +perception
+    - If a neighborhood is urban, -endurance
+    - If a neighborhood has clubs/social centers, +charisma
+    - If a neighborhoods population is mostly white collar:
+        +charisma +intelligence -strength -perception
+    - If a neighborhoods population is mostly blue collar:
+        +strength -intelligence +endurance
+
+
