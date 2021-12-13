@@ -11,6 +11,7 @@ A python simulation script to simulate a "Hunger Games" style battle for every n
 - [ ] Determine player attributes based on data from analysis
 - [ ] Attacking - player with higher attributes wins
 - [ ] Simulation - currently just picks random neighborhood as winner
+- [ ] Run statistical tests to determine if result is conclusive
 
 ## Setup
 - <code>pip3 install pandas</code>
